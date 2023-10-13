@@ -1,0 +1,40 @@
+{
+  "name": "sqs-html-pdf",
+  "version": "1.0.0",
+  "description": "HTML TO PDF",
+  "author": "SQS",
+  "main": "main.js",
+  "bin": {
+    "sqs-html-pdf": "main.js"
+  },
+  "engines": {
+    "node": "16.17.0"
+  },
+  "pkg": {
+    "scripts": [
+      "main.js",
+      "cin.js",
+      "global.js",
+      "init.js",
+      "worker.js"
+    ],
+    "targets": [
+      "node16-win-x64"
+    ],
+    "assets": [
+      "node_modules/**/*",
+      "chrome/**/*"
+    ],
+    "outputPath": "./"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "install-pkg": "cnpm install -g pkg",
+    "pkg": "pkg . --targets win --node-version 16.17.0 --compress Brotli --public"
+  },
+  "dependencies": {
+    "es6-promise": "4.2.8",
+    "puppeteer": "20.7.3",
+    "sqs-console": "1.0.1"
+  }
+}
