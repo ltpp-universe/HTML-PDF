@@ -8,7 +8,7 @@
     "sqs-html-pdf": "main.js"
   },
   "engines": {
-    "node": "16.17.0"
+    "node": "^20"
   },
   "pkg": {
     "scripts": [
@@ -35,6 +35,6 @@
     "es6-promise": "4.2.8",
     "html-pdf": "3.0.1",
     "phantomjs-prebuilt": "^2.1.16",
-    "node-colour-console": "1.0.0"
+    "node-colour-console": "1.1.0"
   }
 }
