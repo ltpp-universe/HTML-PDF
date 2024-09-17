@@ -35,6 +35,6 @@
     "es6-promise": "4.2.8",
     "html-pdf": "3.0.1",
     "phantomjs-prebuilt": "^2.1.16",
-    "sqs-console": "1.0.1"
+    "node-colour-console": "1.0.0"
   }
 }
