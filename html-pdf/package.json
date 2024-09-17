@@ -28,7 +28,7 @@
   },
   "scripts": {
     "start": "node main.js",
-    "install-pkg": "cnpm install -g pkg",
+    "install-pkg": "yarn global add pkg",
     "pkg": "pkg . --targets win --node-version 16.17.0 --compress Brotli --public"
   },
   "dependencies": {
